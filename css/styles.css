@@ -1,0 +1,44 @@
+:root {
+  --accent-color: #2196f3;
+  --main-primary-color: #757575;
+  --main-secondary-color: #212121;
+  --secondary-accent-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --main-background-color: #e5e5e5;
+  --third-background-color: #f5f4fa;
+}
+
+body {
+  color: var(--main-primary-color);
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo .logo-first {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: var(--main-secondary-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-item {
+  color: var(--main-primary-color);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}

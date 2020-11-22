@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Шапка сайта -->
     <header>
       <nav class="navigation">
         <a class="logo links" href="/"
@@ -37,123 +43,134 @@
     </header>
 
     <main>
-      <h1>Портфолио</h1>
-      <button type="button">Все</button>
-      <button type="button">Веб-сайты</button>
-      <button type="button">Приложения</button>
-      <button type="button">Дизайн</button>
-      <button type="button">Маркетинг</button>
-      <ul>
-        <li>
-          <a class="links" href="">
+      <h1 class="visually-hidden">Портфолио</h1>
+      <button class="button-portfolio" type="button">Все</button>
+      <button class="button-portfolio" type="button">Веб-сайты</button>
+      <button class="button-portfolio" type="button">Приложения</button>
+      <button class="button-portfolio" type="button">Дизайн</button>
+      <button class="button-portfolio" type="button">Маркетинг</button>
+      <ul class="portfolio-list">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-1.jpg"
               alt="три человека на дисплее компютера"
               width="370"
               height="294"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="portfolio-text">Веб-сайт</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-2.jpg"
               alt="два баскетболиста"
               width="370"
               height="294"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-text">Дизайн</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-3.jpg"
               alt="лейбл ресторана на фоне рибы"
               width="370"
               height="294"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
+            <p class="portfolio-text">Приложение</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-4.jpg"
               alt="наушники"
               width="370"
               height="294"
             />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект Prime</h2>
+            <p class="portfolio-text">Маркетинг</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-5.jpg"
               alt="две коробки"
               width="370"
               height="294"
             />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Проект Boxes</h2>
+            <p class="portfolio-text">Приложение</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-6.jpg"
               alt="монитор компютера"
               width="370"
               height="294"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-text">Веб-сайт</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-7.jpg"
               alt="откритая книга"
               width="370"
               height="294"
             />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Издание Limited Edition</h2>
+            <p class="portfolio-text">Дизайн</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-8.jpg"
               alt="ярлык"
               width="370"
               height="294"
             />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект LAB</h2>
+            <p class="portfolio-text">Маркетинг</p>
           </a>
         </li>
-        <li>
-          <a class="links" href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link links" href="">
             <img
+              class="portfolio-photo"
               src="./images/portfolio-9.jpg"
               alt="работа за компютером"
               width="370"
               height="294"
             />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Growing Business</h2>
+            <p class="portfolio-text">Приложение</p>
           </a>
         </li>
       </ul>
     </main>
+
+    <!-- Футер -->
     <footer class="footer">
       <a class="logo links" href="/"
         >Web<span class="logo-second dark">Studio</span></a

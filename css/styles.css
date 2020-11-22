@@ -6,21 +6,53 @@
   --secondary-background-color: #2f303a;
   --main-background-color: #e5e5e5;
   --third-background-color: #f5f4fa;
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
 }
 
 /* ------COMMON------ */
 body {
   color: var(--main-primary-color);
+  font-family: var(--primary-font-family);
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
 }
 
 .links {
   text-decoration: none;
+}
+
+.nav-link,
+.contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  /*letter-spacing: 2%;*/
+}
+
+.title {
+  color: var(--main-secondary-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  /*letter-spacing: 3%;*/
 }
 /* ------END COMMON------ */
 
 /* ------HEADER------ */
 .logo {
   color: var(--accent-color);
+
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /*letter-spacing: 3px;*/
 }
 
 .logo .logo-second {
@@ -57,10 +89,23 @@ body {
 
 .hero-title {
   color: var(--secondary-accent-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  /*letter-spacing: 6%;*/
 }
 
 .button {
   color: var(--secondary-accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /*letter-spacing: 6%;*/
+
   background-color: var(--accent-color);
 }
 /* ------END HERO------ */
@@ -82,18 +127,43 @@ body {
 
 .advantages-title {
   color: var(--main-secondary-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  text-transform: uppercase;
+  /*letter-spacing: 3%;*/
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  /*letter-spacing: 3%;*/
 }
 /* ------END ADVANTAGES------ */
 
 /* ------OUR WORKS------ */
-.title {
-  color: var(--main-secondary-color);
-}
+
 /* ------END OUR WORKS------ */
 
 /* ------OUR TEAM------ */
 .team-title {
   color: var(--main-secondary-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /*letter-spacing:  3%;*/
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /*letter-spacing:  3%;*/
 }
 /* ------END OUR TEAM------ */
 
@@ -104,13 +174,63 @@ body {
 
 .footer-text {
   color: var(--secondary-accent-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /*letter-spacing: 3%;*/
 }
 
 .footer-contact-info {
   color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /*letter-spacing: 3%;*/
 }
 
 .logo-second.dark {
   color: var(--secondary-accent-color);
 }
 /* ------END FOOTER------ */
+
+/* ------PORTFOLIO MAIN------ */
+.button-portfolio {
+  color: var(--main-secondary-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /*letter-spacing: 3%;*/
+
+  background-color: var(--third-background-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--secondary-accent-color);
+
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--main-secondary-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /*letter-spacing: 6%;*/
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.86;
+  /*letter-spacing: 3%;*/
+}
+.portfolio-link {
+  color: inherit;
+}
+/* ------ END PORTFOLIO MAIN------ */ ;

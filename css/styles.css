@@ -27,32 +27,31 @@ ul {
 
 .nav-link,
 .contact-item {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  /*letter-spacing: 2%;*/
+  letter-spacing: 0.02em;
 }
 
 .title {
   color: var(--main-secondary-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
 /* ------END COMMON------ */
 
 /* ------HEADER------ */
 .logo {
   color: var(--accent-color);
-
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /*letter-spacing: 3px;*/
+  letter-spacing: 0.03em;
 }
 
 .logo .logo-second {
@@ -89,22 +88,20 @@ ul {
 
 .hero-title {
   color: var(--secondary-accent-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
-  /*letter-spacing: 6%;*/
+  letter-spacing: 0.06em;
 }
 
 .button {
   color: var(--secondary-accent-color);
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /*letter-spacing: 6%;*/
+  letter-spacing: 0.06em;
 
   background-color: var(--accent-color);
 }
@@ -133,7 +130,7 @@ ul {
   line-height: 1.14;
   text-align: left;
   text-transform: uppercase;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
 
 .advantages-text {
@@ -141,7 +138,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
 /* ------END ADVANTAGES------ */
 
@@ -152,18 +149,17 @@ ul {
 /* ------OUR TEAM------ */
 .team-title {
   color: var(--main-secondary-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /*letter-spacing:  3%;*/
+  letter-spacing: 0.03em;
 }
 
 .team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /*letter-spacing:  3%;*/
+  letter-spacing: 0.03em;
 }
 /* ------END OUR TEAM------ */
 
@@ -174,21 +170,19 @@ ul {
 
 .footer-text {
   color: var(--secondary-accent-color);
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
 
 .footer-contact-info {
   color: rgba(255, 255, 255, 0.6);
-
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
 
 .logo-second.dark {
@@ -203,33 +197,31 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /*letter-spacing: 3%;*/
-
+  letter-spacing: 0.03em;
   background-color: var(--third-background-color);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--secondary-accent-color);
-
   background-color: var(--accent-color);
 }
 
 .portfolio-title {
   color: var(--main-secondary-color);
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /*letter-spacing: 6%;*/
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
-  /*letter-spacing: 3%;*/
+  letter-spacing: 0.03em;
 }
+
 .portfolio-link {
   color: inherit;
 }

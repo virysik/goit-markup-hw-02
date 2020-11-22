@@ -12,16 +12,19 @@
 body {
   color: var(--main-primary-color);
 }
+
+.links {
+  text-decoration: none;
+}
 /* ------END COMMON------ */
 
 /* ------HEADER------ */
 .logo {
-  color: #000000;
-  text-decoration: none;
+  color: var(--accent-color);
 }
 
-.logo .logo-first {
-  color: var(--accent-color);
+.logo .logo-second {
+  color: #000000;
 }
 
 .nav-link {
@@ -92,3 +95,22 @@ body {
 .team-title {
   color: var(--main-secondary-color);
 }
+/* ------END OUR TEAM------ */
+
+/* ------FOOTER------ */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-text {
+  color: var(--secondary-accent-color);
+}
+
+.footer-contact-info {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-second.dark {
+  color: var(--secondary-accent-color);
+}
+/* ------END FOOTER------ */

@@ -8,10 +8,13 @@
   --third-background-color: #f5f4fa;
 }
 
+/* ------COMMON------ */
 body {
   color: var(--main-primary-color);
 }
+/* ------END COMMON------ */
 
+/* ------HEADER------ */
 .logo {
   color: #000000;
   text-decoration: none;
@@ -41,4 +44,51 @@ body {
 .contact-item:hover,
 .contact-item:focus {
   color: var(--accent-color);
+}
+/* ------END HEADER------ */
+
+/* ------HERO------ */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--secondary-accent-color);
+}
+
+.button {
+  color: var(--secondary-accent-color);
+  background-color: var(--accent-color);
+}
+/* ------END HERO------ */
+
+/* ------ADVANTAGES------ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-title {
+  color: var(--main-secondary-color);
+}
+/* ------END ADVANTAGES------ */
+
+/* ------OUR WORKS------ */
+.title {
+  color: var(--main-secondary-color);
+}
+/* ------END OUR WORKS------ */
+
+/* ------OUR TEAM------ */
+.team-title {
+  color: var(--main-secondary-color);
 }

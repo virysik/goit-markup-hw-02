@@ -142,6 +142,10 @@ a {
 /* ------END OUR WORKS------ */
 
 /* ------OUR TEAM------ */
+.team {
+  background-color: var(--third-background-color);
+}
+
 .team-title {
   color: var(--main-secondary-color);
   font-weight: 500;
